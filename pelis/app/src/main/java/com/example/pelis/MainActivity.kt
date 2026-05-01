@@ -5,7 +5,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
@@ -19,11 +18,9 @@ import com.example.pelis.data.repository.MovieRepository
 import com.example.pelis.ui.screens.addmovie.AddMovieScreen
 import com.example.pelis.ui.screens.landing.LandingScreen
 import com.example.pelis.ui.screens.movies.MoviesScreen
-import com.example.pelis.ui.theme.DarkBg
 import com.example.pelis.ui.theme.PelisTheme
 import com.example.pelis.viewmodel.AddMovieViewModel
 import com.example.pelis.viewmodel.MoviesViewModel
-import androidx.lifecycle.viewmodel.compose.viewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
