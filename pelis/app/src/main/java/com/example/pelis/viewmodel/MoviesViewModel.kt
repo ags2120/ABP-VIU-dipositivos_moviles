@@ -3,9 +3,6 @@ package com.example.pelis.viewmodel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.pelis.data.repository.MovieRepository
-import com.example.pelis.domain.model.Movie
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
 /**
